@@ -1,0 +1,19 @@
+dataset,configuration,metric,n,statistic,p_value,note
+student_performance,L1_all_to_all,svqx_concentration,3,0.9585889570559113,0.6086156334736441,descriptive only; n<8
+student_performance,L1_all_to_all,entanglement_score,3,0.993442679713426,0.8451752611459311,descriptive only; n<8
+student_performance,L1_all_to_all,qsalto_a1_estimate,3,0.9999042512447333,0.9813114814102509,descriptive only; n<8
+student_performance,L1_linear,svqx_concentration,3,0.8069467053585889,0.13119262461497028,descriptive only; n<8
+student_performance,L1_linear,entanglement_score,3,0.9801718038601431,0.7301709256276137,descriptive only; n<8
+student_performance,L1_linear,qsalto_a1_estimate,3,0.9896659518950214,0.8055143910594832,descriptive only; n<8
+student_performance,L2_all_to_all,svqx_concentration,3,0.8976951875180164,0.37820238516767524,descriptive only; n<8
+student_performance,L2_all_to_all,entanglement_score,3,0.9245503401309071,0.4685664788993159,descriptive only; n<8
+student_performance,L2_all_to_all,qsalto_a1_estimate,3,0.964285714285704,0.6368868450289162,descriptive only; n<8
+student_performance,L2_all_to_all_re_upload,svqx_concentration,3,0.9367348758459401,0.5144064226209399,descriptive only; n<8
+student_performance,L2_all_to_all_re_upload,entanglement_score,3,0.999163113649713,0.9447419933419672,descriptive only; n<8
+student_performance,L2_all_to_all_re_upload,qsalto_a1_estimate,3,0.9985083236704535,0.9262186313693453,descriptive only; n<8
+student_performance,L2_linear,svqx_concentration,3,0.9988075563983492,0.934036050397781,descriptive only; n<8
+student_performance,L2_linear,entanglement_score,3,0.9702057049937094,0.6686793750625606,descriptive only; n<8
+student_performance,L2_linear,qsalto_a1_estimate,3,0.9628879348430607,0.6297606967714897,descriptive only; n<8
+student_performance,L2_re_upload,svqx_concentration,3,0.9999791450185285,0.9912781665064697,descriptive only; n<8
+student_performance,L2_re_upload,entanglement_score,3,0.916888064441132,0.4414769103041831,descriptive only; n<8
+student_performance,L2_re_upload,qsalto_a1_estimate,3,0.9813451869124853,0.7383284895642914,descriptive only; n<8

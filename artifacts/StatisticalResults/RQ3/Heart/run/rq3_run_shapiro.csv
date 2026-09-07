@@ -1,0 +1,19 @@
+dataset,configuration,metric,n,statistic,p_value,note
+heart_disease,L1_all_to_all,svqx_concentration,3,0.9714922571607525,0.6759827232811274,descriptive only; n<8
+heart_disease,L1_all_to_all,entanglement_score,3,0.9041422533560943,0.3988110019417338,descriptive only; n<8
+heart_disease,L1_all_to_all,qsalto_a1_estimate,3,0.918958143653042,0.44867890706592695,descriptive only; n<8
+heart_disease,L1_linear,svqx_concentration,3,0.8616383214776372,0.27209455022389495,descriptive only; n<8
+heart_disease,L1_linear,entanglement_score,3,0.9135107970485061,0.4298998056592688,descriptive only; n<8
+heart_disease,L1_linear,qsalto_a1_estimate,3,0.9165493905089366,0.4403064366657976,descriptive only; n<8
+heart_disease,L2_all_to_all,svqx_concentration,3,0.8601429455528612,0.2679681530354976,descriptive only; n<8
+heart_disease,L2_all_to_all,entanglement_score,3,0.9788168962522716,0.7210402733950012,descriptive only; n<8
+heart_disease,L2_all_to_all,qsalto_a1_estimate,3,0.8241758241758241,0.1736239700951705,descriptive only; n<8
+heart_disease,L2_all_to_all_re_upload,svqx_concentration,3,0.9933781546659309,0.8444136948850396,descriptive only; n<8
+heart_disease,L2_all_to_all_re_upload,entanglement_score,3,0.9153083383990307,0.4360356303995965,descriptive only; n<8
+heart_disease,L2_all_to_all_re_upload,qsalto_a1_estimate,3,0.9019936066352514,0.3918759660688449,descriptive only; n<8
+heart_disease,L2_linear,svqx_concentration,3,0.8976490447398425,0.3780570002819045,descriptive only; n<8
+heart_disease,L2_linear,entanglement_score,3,0.961972222015876,0.6251620102363005,descriptive only; n<8
+heart_disease,L2_linear,qsalto_a1_estimate,3,0.9851298458931126,0.7665244714732978,descriptive only; n<8
+heart_disease,L2_re_upload,svqx_concentration,3,0.9314484971278436,0.4940571686476253,descriptive only; n<8
+heart_disease,L2_re_upload,entanglement_score,3,0.9998482165795985,0.9764698588484153,descriptive only; n<8
+heart_disease,L2_re_upload,qsalto_a1_estimate,3,0.9072027796907047,0.4088104547669448,descriptive only; n<8

@@ -1,0 +1,13 @@
+dataset,metric_x,metric_y,correlation,p_value,method
+student_performance,cnot_count,aod_mean,0.22277661714472866,0.37424583285158397,spearman
+student_performance,n_params,aod_mean,0.13629325512727639,0.5897089668473676,spearman
+student_performance,n_layers,aod_mean,0.13629325512727639,0.5897089668473676,spearman
+student_performance,cnot_count,spd_mean,0.290578196275733,0.2420937436596115,spearman
+student_performance,n_params,spd_mean,0.11357771260606365,0.6536247361784266,spearman
+student_performance,n_layers,spd_mean,0.11357771260606365,0.6536247361784266,spearman
+student_performance,cnot_count,eod_mean,0.5230407532963194,0.02592745506952956,spearman
+student_performance,n_params,eod_mean,0.15900879764848916,0.5285535588955479,spearman
+student_performance,n_layers,eod_mean,0.15900879764848916,0.5285535588955479,spearman
+student_performance,cnot_count,entanglement_score,-0.3874375950343107,0.11216715895768142,spearman
+student_performance,n_params,entanglement_score,0.47702639294546734,0.04531591054458126,spearman
+student_performance,n_layers,entanglement_score,0.47702639294546734,0.04531591054458126,spearman

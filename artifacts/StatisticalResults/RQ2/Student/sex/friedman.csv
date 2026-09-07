@@ -1,0 +1,6 @@
+attribute,dataset,metric,statistic,p_value_raw,n_blocks,n_configurations,unit,p_value_holm,p_value_fdr_bh,significant_raw,significant_holm,significant_fdr_bh
+sex,student_performance,spd,3.2437275985663088,0.6624673547607811,9,6,seed+model,1.0,0.673481377055235,False,False,False
+sex,student_performance,eod,6.577060931899623,0.2540418187257885,9,6,seed+model,0.7621254561773656,0.42340303120964756,False,False,False
+sex,student_performance,aod,3.172043010752673,0.673481377055235,9,6,seed+model,1.0,0.673481377055235,False,False,False
+sex,student_performance,trace_distance_input,9.571428571428555,0.08833030024086697,9,6,seed+model,0.35332120096346786,0.22082575060216741,False,False,False
+sex,student_performance,qsp_diff_output,41.571428571428555,7.191816782295019e-08,9,6,seed+model,3.5959083911475097e-07,3.595908391147509e-07,True,True,True

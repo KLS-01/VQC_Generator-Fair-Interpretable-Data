@@ -1,0 +1,4 @@
+dataset,metric,statistic,p_value_raw,n_blocks,n_configurations,unit,p_value_holm,p_value_fdr_bh,significant_raw,significant_holm,significant_fdr_bh
+student_performance,svqx_concentration,5.476190476190467,0.36056374591195106,3,6,seed,0.36056374591195106,0.36056374591195106,False,False,False
+student_performance,entanglement_score,10.80952380952381,0.055290127801493866,3,6,seed,0.11058025560298773,0.0829351917022408,False,False,False
+student_performance,qsalto_a1_estimate,11.952380952380949,0.03544612949501381,3,6,seed,0.10633838848504143,0.0829351917022408,True,False,False

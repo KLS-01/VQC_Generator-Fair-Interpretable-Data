@@ -1,0 +1,6 @@
+attribute,dataset,metric,statistic,p_value_raw,n_blocks,n_configurations,unit,p_value_holm,p_value_fdr_bh,significant_raw,significant_holm,significant_fdr_bh
+overall,heart_disease,spd,5.123456790123433,0.4010000481351127,9,6,seed+model,1.0,0.5325089861628652,False,False,False
+overall,heart_disease,eod,3.849372384937225,0.5713002054378078,9,6,seed+model,1.0,0.5713002054378078,False,False,False
+overall,heart_disease,aod,4.917695473251015,0.4260071889302922,9,6,seed+model,1.0,0.5325089861628652,False,False,False
+overall,heart_disease,trace_distance_input,37.571428571428555,4.600115100580104e-07,9,6,seed+model,2.300057550290052e-06,1.948992905103628e-06,True,True,True
+overall,heart_disease,qsp_diff_output,36.428571428571416,7.795971620414512e-07,9,6,seed+model,3.118388648165805e-06,1.948992905103628e-06,True,True,True

@@ -1,0 +1,19 @@
+dataset,configuration,metric,n,statistic,p_value,note
+german_credit,L1_all_to_all,svqx_concentration,3,0.8321917808240902,0.19391752148700403,descriptive only; n<8
+german_credit,L1_all_to_all,entanglement_score,3,0.9772176299641037,0.710623125028204,descriptive only; n<8
+german_credit,L1_all_to_all,qsalto_a1_estimate,3,0.8254030983243756,0.1767068876155402,descriptive only; n<8
+german_credit,L1_linear,svqx_concentration,3,0.774129162261278,0.054126810259933045,descriptive only; n<8
+german_credit,L1_linear,entanglement_score,3,0.8603099833743023,0.2684281631088271,descriptive only; n<8
+german_credit,L1_linear,qsalto_a1_estimate,3,0.8523355869698832,0.24671641351837648,descriptive only; n<8
+german_credit,L2_all_to_all,svqx_concentration,3,0.8709162109113157,0.29812907683223255,descriptive only; n<8
+german_credit,L2_all_to_all,entanglement_score,3,0.960428059620749,0.617526055907901,descriptive only; n<8
+german_credit,L2_all_to_all,qsalto_a1_estimate,3,0.9961623376268511,0.881610569703938,descriptive only; n<8
+german_credit,L2_all_to_all_re_upload,svqx_concentration,3,0.9220144032629436,0.459467156028564,descriptive only; n<8
+german_credit,L2_all_to_all_re_upload,entanglement_score,3,0.9076577253716951,0.4103094148605497,descriptive only; n<8
+german_credit,L2_all_to_all_re_upload,qsalto_a1_estimate,3,0.9207184512566611,0.4548694245026649,descriptive only; n<8
+german_credit,L2_linear,svqx_concentration,3,0.9455803308865139,0.5503243231437405,descriptive only; n<8
+german_credit,L2_linear,entanglement_score,3,0.9790259979469328,0.722430341036599,descriptive only; n<8
+german_credit,L2_linear,qsalto_a1_estimate,3,0.9988970651593242,0.936561023003229,descriptive only; n<8
+german_credit,L2_re_upload,svqx_concentration,3,0.9999250004186632,0.9834599725480551,descriptive only; n<8
+german_credit,L2_re_upload,entanglement_score,3,0.995746820971067,0.8753573866391996,descriptive only; n<8
+german_credit,L2_re_upload,qsalto_a1_estimate,3,0.9991414511909316,0.9440311947610263,descriptive only; n<8

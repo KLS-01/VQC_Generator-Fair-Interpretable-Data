@@ -1,0 +1,3 @@
+dataset,metric,statistic,p_value_raw,n_blocks,n_configurations,unit,p_value_holm,p_value_fdr_bh,significant_raw,significant_holm,significant_fdr_bh
+german_credit,f1,3.8163265306122174,0.5761519057718942,9,6,seed+model,1.0,0.7796292920456827,False,False,False
+german_credit,accuracy,2.4791666666666625,0.7796292920456827,9,6,seed+model,1.0,0.7796292920456827,False,False,False

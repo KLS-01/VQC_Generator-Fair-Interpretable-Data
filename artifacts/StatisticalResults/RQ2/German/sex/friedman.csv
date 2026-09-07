@@ -1,0 +1,6 @@
+attribute,dataset,metric,statistic,p_value_raw,n_blocks,n_configurations,unit,p_value_holm,p_value_fdr_bh,significant_raw,significant_holm,significant_fdr_bh
+sex,german_credit,spd,6.020408163265289,0.3042381783517344,9,6,seed+model,0.9127145350552032,0.3820152318607155,False,False,False
+sex,german_credit,eod,5.942622950819642,0.3118420594743408,9,6,seed+model,0.9127145350552032,0.3820152318607155,False,False,False
+sex,german_credit,aod,5.28571428571429,0.3820152318607155,9,6,seed+model,0.9127145350552032,0.3820152318607155,False,False,False
+sex,german_credit,trace_distance_input,7.857142857142833,0.16428649429060993,9,6,seed+model,0.6571459771624397,0.3820152318607155,False,False,False
+sex,german_credit,qsp_diff_output,38.14285714285714,3.531936639384864e-07,9,6,seed+model,1.7659683196924321e-06,1.765968319692432e-06,True,True,True

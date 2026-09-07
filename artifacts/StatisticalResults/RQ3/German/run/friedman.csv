@@ -1,0 +1,4 @@
+dataset,metric,statistic,p_value_raw,n_blocks,n_configurations,unit,p_value_holm,p_value_fdr_bh,significant_raw,significant_holm,significant_fdr_bh
+german_credit,svqx_concentration,9.285714285714278,0.09819645812428354,3,6,seed,0.11895753998402575,0.09819645812428354,False,False,False
+german_credit,entanglement_score,13.095238095238088,0.022502443866208508,3,6,seed,0.06750733159862553,0.06750733159862553,True,False,False
+german_credit,qsalto_a1_estimate,10.61904761904762,0.059478769992012875,3,6,seed,0.11895753998402575,0.08921815498801931,False,False,False

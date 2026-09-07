@@ -1,0 +1,4 @@
+dataset,metric,statistic,p_value_raw,n_blocks,n_configurations,unit,p_value_holm,p_value_fdr_bh,significant_raw,significant_holm,significant_fdr_bh
+heart_disease,svqx_concentration,3.19047619047619,0.6706468207856121,3,6,seed,0.6706468207856121,0.6706468207856121,False,False,False
+heart_disease,entanglement_score,13.666666666666657,0.01787135105143487,3,6,seed,0.042497051054550955,0.026807026577152306,True,True,True
+heart_disease,qsalto_a1_estimate,14.23809523809524,0.014165683684850317,3,6,seed,0.042497051054550955,0.026807026577152306,True,True,True

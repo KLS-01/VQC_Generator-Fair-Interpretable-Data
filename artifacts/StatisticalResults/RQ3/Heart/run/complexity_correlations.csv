@@ -1,0 +1,13 @@
+dataset,metric_x,metric_y,correlation,p_value,method
+heart_disease,cnot_count,aod_mean,0.06780157913100437,0.7892276915222395,spearman
+heart_disease,n_params,aod_mean,-0.2271554252121273,0.3646808066939171,spearman
+heart_disease,n_layers,aod_mean,-0.2271554252121273,0.3646808066939171,spearman
+heart_disease,cnot_count,spd_mean,-0.15497503801372428,0.5391964621606639,spearman
+heart_disease,n_params,spd_mean,-0.38616422286061647,0.11345387830574105,spearman
+heart_disease,n_layers,spd_mean,-0.38616422286061647,0.11345387830574105,spearman
+heart_disease,cnot_count,eod_mean,0.10654533863443542,0.6739136582296088,spearman
+heart_disease,n_params,eod_mean,-0.3634486803394037,0.1381984628417674,spearman
+heart_disease,n_layers,eod_mean,-0.3634486803394037,0.1381984628417674,spearman
+heart_disease,cnot_count,entanglement_score,-0.4261813545377417,0.07780706182827495,spearman
+heart_disease,n_params,entanglement_score,0.43159530790304196,0.07370706155867192,spearman
+heart_disease,n_layers,entanglement_score,0.43159530790304196,0.07370706155867192,spearman

@@ -1,0 +1,265 @@
+=== Validation suite ===
+Root: Quantum_Dataset_Generation_Online_Appendix
+
+[OK] Quantum_Dataset_Generation_Online_Appendix/Analysis/RQ1_data/rq1_models_results.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/Analysis/RQ2_data/rq2_all_fairness_results_multiattribute.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/Analysis/RQ3_data/rq3_all_results.csv
+[OK] RQ1: colonne chiave presenti
+[OK] RQ1: chiavi uniche
+[OK] RQ2: colonne chiave presenti
+[OK] RQ2: chiavi uniche
+[OK] RQ3: colonne chiave presenti
+[OK] RQ3: chiavi uniche
+[OK] RQ1: cardinalita' 162 righe
+[OK] RQ2: cardinalita' 486 righe
+[OK] german_credit/RQ1: cardinalita' 54
+[OK] german_credit/RQ2: cardinalita' 162
+[OK] german_credit/RQ3: cardinalita' 180
+[OK] german_credit/RQ1: configurazioni complete
+[OK] german_credit/RQ2: configurazioni complete
+[OK] german_credit/RQ3: configurazioni complete
+[OK] german_credit: seed completi
+[OK] heart_disease/RQ1: cardinalita' 54
+[OK] heart_disease/RQ2: cardinalita' 162
+[OK] heart_disease/RQ3: cardinalita' 198
+[OK] heart_disease/RQ1: configurazioni complete
+[OK] heart_disease/RQ2: configurazioni complete
+[OK] heart_disease/RQ3: configurazioni complete
+[OK] heart_disease: seed completi
+[OK] student_performance/RQ1: cardinalita' 54
+[OK] student_performance/RQ2: cardinalita' 162
+[OK] student_performance/RQ3: cardinalita' 198
+[OK] student_performance/RQ1: configurazioni complete
+[OK] student_performance/RQ2: configurazioni complete
+[OK] student_performance/RQ3: configurazioni complete
+[OK] student_performance: seed completi
+
+## Risultati statistici
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/German/f1_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/German/f1_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/German/f1_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/German/f1_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/German/accuracy_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/German/accuracy_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/German/accuracy_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/German/accuracy_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/age/spd_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/age/spd_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/age/spd_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/age/spd_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/age/eod_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/age/eod_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/age/eod_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/age/eod_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/age/aod_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/age/aod_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/age/aod_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/age/aod_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/sex/spd_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/sex/spd_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/sex/spd_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/sex/spd_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/sex/eod_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/sex/eod_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/sex/eod_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/sex/eod_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/sex/aod_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/sex/aod_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/sex/aod_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/sex/aod_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/overall/spd_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/overall/spd_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/overall/spd_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/overall/spd_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/overall/eod_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/overall/eod_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/overall/eod_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/overall/eod_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/overall/aod_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/overall/aod_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/overall/aod_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/German/overall/aod_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/German/gate/svqx_value_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/German/gate/svqx_value_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/German/gate/svqx_value_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/German/gate/svqx_value_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/German/run/svqx_concentration_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/German/run/svqx_concentration_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/German/run/svqx_concentration_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/German/run/svqx_concentration_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/German/run/entanglement_score_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/German/run/entanglement_score_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/German/run/entanglement_score_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/German/run/entanglement_score_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/German/run/qsalto_a1_estimate_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/German/run/qsalto_a1_estimate_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/German/run/qsalto_a1_estimate_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/German/run/qsalto_a1_estimate_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/German/gate/friedman.csv
+[OK] german_credit/RQ3 gate: n_blocks presente
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/German/gate/svqx_stability_spearman.csv
+[OK] german_credit: colonne stabilita' presenti
+[OK] german_credit: configurazioni stabilita' complete
+[OK] german_credit: mean_rho in [-1,1]
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/German/run/complexity_correlations.csv
+[OK] german_credit: predittori complessita' completi
+[OK] german_credit: outcome complessita' completi
+[OK] german_credit: 12 correlazioni
+[OK] german_credit: correlazioni/p-value validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/Heart/f1_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/Heart/f1_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/Heart/f1_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/Heart/f1_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/Heart/accuracy_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/Heart/accuracy_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/Heart/accuracy_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/Heart/accuracy_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/age/spd_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/age/spd_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/age/spd_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/age/spd_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/age/eod_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/age/eod_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/age/eod_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/age/eod_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/age/aod_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/age/aod_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/age/aod_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/age/aod_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/sex/spd_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/sex/spd_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/sex/spd_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/sex/spd_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/sex/eod_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/sex/eod_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/sex/eod_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/sex/eod_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/sex/aod_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/sex/aod_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/sex/aod_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/sex/aod_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/overall/spd_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/overall/spd_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/overall/spd_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/overall/spd_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/overall/eod_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/overall/eod_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/overall/eod_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/overall/eod_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/overall/aod_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/overall/aod_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/overall/aod_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Heart/overall/aod_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Heart/gate/svqx_value_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Heart/gate/svqx_value_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Heart/gate/svqx_value_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Heart/gate/svqx_value_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Heart/run/svqx_concentration_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Heart/run/svqx_concentration_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Heart/run/svqx_concentration_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Heart/run/svqx_concentration_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Heart/run/entanglement_score_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Heart/run/entanglement_score_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Heart/run/entanglement_score_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Heart/run/entanglement_score_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Heart/run/qsalto_a1_estimate_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Heart/run/qsalto_a1_estimate_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Heart/run/qsalto_a1_estimate_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Heart/run/qsalto_a1_estimate_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Heart/gate/friedman.csv
+[OK] heart_disease/RQ3 gate: n_blocks presente
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Heart/gate/svqx_stability_spearman.csv
+[OK] heart_disease: colonne stabilita' presenti
+[OK] heart_disease: configurazioni stabilita' complete
+[OK] heart_disease: mean_rho in [-1,1]
+[WARN] heart_disease: nessuna configurazione supera mean_rho > 0.5 (non bloccante)
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Heart/run/complexity_correlations.csv
+[OK] heart_disease: predittori complessita' completi
+[OK] heart_disease: outcome complessita' completi
+[OK] heart_disease: 12 correlazioni
+[OK] heart_disease: correlazioni/p-value validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/Student/f1_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/Student/f1_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/Student/f1_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/Student/f1_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/Student/accuracy_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/Student/accuracy_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/Student/accuracy_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ1/Student/accuracy_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/age/spd_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/age/spd_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/age/spd_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/age/spd_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/age/eod_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/age/eod_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/age/eod_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/age/eod_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/age/aod_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/age/aod_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/age/aod_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/age/aod_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/sex/spd_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/sex/spd_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/sex/spd_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/sex/spd_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/sex/eod_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/sex/eod_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/sex/eod_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/sex/eod_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/sex/aod_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/sex/aod_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/sex/aod_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/sex/aod_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/overall/spd_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/overall/spd_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/overall/spd_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/overall/spd_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/overall/eod_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/overall/eod_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/overall/eod_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/overall/eod_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/overall/aod_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/overall/aod_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/overall/aod_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ2/Student/overall/aod_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Student/gate/svqx_value_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Student/gate/svqx_value_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Student/gate/svqx_value_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Student/gate/svqx_value_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Student/run/svqx_concentration_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Student/run/svqx_concentration_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Student/run/svqx_concentration_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Student/run/svqx_concentration_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Student/run/entanglement_score_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Student/run/entanglement_score_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Student/run/entanglement_score_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Student/run/entanglement_score_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Student/run/qsalto_a1_estimate_NemenyiTestResults.csv
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Student/run/qsalto_a1_estimate_NemenyiTestResults.csv: matrice quadrata
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Student/run/qsalto_a1_estimate_NemenyiTestResults.csv: matrice simmetrica
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Student/run/qsalto_a1_estimate_NemenyiTestResults.csv: valori p-validi
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Student/gate/friedman.csv
+[OK] student_performance/RQ3 gate: n_blocks presente
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Student/gate/svqx_stability_spearman.csv
+[OK] student_performance: colonne stabilita' presenti
+[OK] student_performance: configurazioni stabilita' complete
+[OK] student_performance: mean_rho in [-1,1]
+[OK] Quantum_Dataset_Generation_Online_Appendix/StatisticalResults/RQ3/Student/run/complexity_correlations.csv
+[OK] student_performance: predittori complessita' completi
+[OK] student_performance: outcome complessita' completi
+[OK] student_performance: 12 correlazioni
+[OK] student_performance: correlazioni/p-value validi
+
+## Merge RQ2-RQ3
+[OK] german_credit: merge RQ2-RQ3 completo per aod_mean
+[OK] german_credit: merge RQ2-RQ3 completo per spd_mean
+[OK] german_credit: merge RQ2-RQ3 completo per eod_mean
+[OK] heart_disease: merge RQ2-RQ3 completo per aod_mean
+[OK] heart_disease: merge RQ2-RQ3 completo per spd_mean
+[OK] heart_disease: merge RQ2-RQ3 completo per eod_mean
+[OK] student_performance: merge RQ2-RQ3 completo per aod_mean
+[OK] student_performance: merge RQ2-RQ3 completo per spd_mean
+[OK] student_performance: merge RQ2-RQ3 completo per eod_mean
+
+## Esito finale
+[PASS] Nessun errore rilevato
