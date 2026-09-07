@@ -63,18 +63,18 @@ I gradienti analitici $\nabla_{\boldsymbol{\theta}}\mathcal{L}$ vengono calcolat
 
 | File Sorgente | Modulo / Ruolo | Responsabilità Operativa |
 | --- | --- | --- |
-| `LS_0512110456_data_pipeline_v1.0.py` | **Data Ingestion & Preprocessing** | Download deterministico da UCI ML Repo, selezione $k$-best feature tramite Mutual Information ($k \le 8$), binarizzazione soglie protette, derivazione $A_{\text{overall}}$ e scaling angolare $[0, \pi]$ per rotazioni quantistiche.|
-| `LS_0512110456_quantum_vqc_v1.0.py` | **Quantum Generator Engine** | Template circuitale parametrizzato (Ry-Rz rotazioni + CNOT entangling), codifica Parameter-Shift Rule esatta, ottimizzatore variazionale con loss di fairness vincolata ($\lambda_{\text{fair}}=5.0$). |
-| `LS_0512110456_dataset_export_v1.0.py` | **Dataset Exporter** | Esportazione dei dataset reali di riferimento e dei dataset sintetici generati dai VQC con ricostruzione delle scale originali. |
-| `LS_0512110456_evaluation_v1.0.py` | **Downstream Evaluator** | Protocollo TSTR (*Train on Synthetic, Test on Real*) su 3 classificatori (`RandomForest`, `XGBoost_stub`, `MLP`); calcolo utility ($F_1$, Accuracy) e fairness multi-attributo (SPD, EOD, AOD).|
-| `LS_0512110456_bell_sampling_v1.0.py` | **Quantum Native Diagnostics** | Bell State Measurement a due copie; calcolo della Trace Distance sugli stati di input, Quantum Statistical Parity (`qsp_diff_output`) e identificazione delle Bias Pairs.|
-| `LS_0512110456_entanglement_analysis_v1.0.py` | **Entanglement Engine** | Calcolo dell'entanglement multipartito (indice di Meyer-Wallach) e stima del coefficiente Shor-Laflamme $a_1$ (purezza media dei singoli qubit) mediante protocollo di Bell sampling a due copie (2048 shot) tramite la libreria `qsalto`. |
-| `LS_0512110456_svqx_v1.0.py` | **Quantum Explainability (XAI)** | Calcolo esatto dei Quantum Shapley Values (SVQX) a livello di singoli gate groups (rotazioni per qubit e blocchi CNOT).|
-| `LS_0512110456_pipeline_orchestrator_v1.0.py` | **End-to-End Orchestrator** | Gestione della griglia $3 \times 6 \times 3 = 54\text{ run}$, checkpointing atomico transazionale con manifest `.json`, meccanismo *self-healing* per resume idempotente senza duplicazioni, esportazione raw unificata con iniezione di 6 covariate strutturali.|
-| `LS_0512110456_dataset_analysis_v1.0.py` | **Descriptive Analytics** | Estrazione parametri statistici (Min, Max, Quartili, Std, IQR) su feature continue e frequenze marginali per classi target e sensibili.|
-| `LS_0512110456_statistical_engine_v1.0.py` | **Inferential Statistics Engine** | Shapiro-Wilk diagnostico bloccante, test omnibus di Friedman con correzione Holm / FDR-BH, matrici post-hoc Nemenyi, stabilità inter-seed SVQX e 12 correlazioni di complessità architetturale.|
-| `LS_0512110456_visualization_suite_v1.0.py` | **Visual Analytics Suite** | Generazione di 75 figure PNG ad alta risoluzione ($300\text{ DPI}$): Heatmap di performance e Nemenyi, barplot stabilità SVQX, scatter plot con bande di confidenza $95\%$.|
-| `LS_0512110456_validation_suite_v1.0.py` | **Quality Gate & Compliance** | Validazione formale cumulativa: verifica shape, unicità chiavi primarie, range matematici delle matrici, merge relazionali $1:1$ RQ2-RQ3.|
+| `LS_0512110456_data_pipeline.py` | **Data Ingestion & Preprocessing** | Download deterministico da UCI ML Repo, selezione $k$-best feature tramite Mutual Information ($k \le 8$), binarizzazione soglie protette, derivazione $A_{\text{overall}}$ e scaling angolare $[0, \pi]$ per rotazioni quantistiche.|
+| `LS_0512110456_quantum_vqc.py` | **Quantum Generator Engine** | Template circuitale parametrizzato (Ry-Rz rotazioni + CNOT entangling), codifica Parameter-Shift Rule esatta, ottimizzatore variazionale con loss di fairness vincolata ($\lambda_{\text{fair}}=5.0$). |
+| `LS_0512110456_dataset_export.py` | **Dataset Exporter** | Esportazione dei dataset reali di riferimento e dei dataset sintetici generati dai VQC con ricostruzione delle scale originali. |
+| `LS_0512110456_evaluation.py` | **Downstream Evaluator** | Protocollo TSTR (*Train on Synthetic, Test on Real*) su 3 classificatori (`RandomForest`, `XGBoost_stub`, `MLP`); calcolo utility ($F_1$, Accuracy) e fairness multi-attributo (SPD, EOD, AOD).|
+| `LS_0512110456_bell_sampling.py` | **Quantum Native Diagnostics** | Bell State Measurement a due copie; calcolo della Trace Distance sugli stati di input, Quantum Statistical Parity (`qsp_diff_output`) e identificazione delle Bias Pairs.|
+| `LS_0512110456_entanglement_analysis.py` | **Entanglement Engine** | Calcolo dell'entanglement multipartito (indice di Meyer-Wallach) e stima del coefficiente Shor-Laflamme $a_1$ (purezza media dei singoli qubit) mediante protocollo di Bell sampling a due copie (2048 shot) tramite la libreria `qsalto`. |
+| `LS_0512110456_svqx.py` | **Quantum Explainability (XAI)** | Calcolo esatto dei Quantum Shapley Values (SVQX) a livello di singoli gate groups (rotazioni per qubit e blocchi CNOT).|
+| `LS_0512110456_pipeline_orchestrator.py` | **End-to-End Orchestrator** | Gestione della griglia $3 \times 6 \times 3 = 54\text{ run}$, checkpointing atomico transazionale con manifest `.json`, meccanismo *self-healing* per resume idempotente senza duplicazioni, esportazione raw unificata con iniezione di 6 covariate strutturali.|
+| `LS_0512110456_dataset_analysis.py` | **Descriptive Analytics** | Estrazione parametri statistici (Min, Max, Quartili, Std, IQR) su feature continue e frequenze marginali per classi target e sensibili.|
+| `LS_0512110456_statistical_engine.py` | **Inferential Statistics Engine** | Shapiro-Wilk diagnostico bloccante, test omnibus di Friedman con correzione Holm / FDR-BH, matrici post-hoc Nemenyi, stabilità inter-seed SVQX e 12 correlazioni di complessità architetturale.|
+| `LS_0512110456_visualization_suite.py` | **Visual Analytics Suite** | Generazione di 75 figure PNG ad alta risoluzione ($300\text{ DPI}$): Heatmap di performance e Nemenyi, barplot stabilità SVQX, scatter plot con bande di confidenza $95\%$.|
+| `LS_0512110456_validation_suite.py` | **Quality Gate & Compliance** | Validazione formale cumulativa: verifica shape, unicità chiavi primarie, range matematici delle matrici, merge relazionali $1:1$ RQ2-RQ3.|
 
 
 
@@ -360,19 +360,19 @@ Per utilizzare la pipeline, lanciare i seguenti comandi:
 
 ```bash
 # 1. Esecuzione della computazione quantistica end-to-end (54 run)
-python -u LS_0512110456_pipeline_orchestrator_v1.0.py
+python -u LS_0512110456_pipeline_orchestrator.py
 
 # 2. Estrazione delle statistiche descrittive sui dataset esportati
-python -u LS_0512110456_dataset_analysis_v1.0.py --root Quantum_Dataset_Generation_Online_Appendix
+python -u LS_0512110456_dataset_analysis.py
 
 # 3. Elaborazione del motore statistico inferenziale (Friedman, Nemenyi, Correlazioni)
-python -u LS_0512110456_statistical_engine_v1.0.py --root Quantum_Dataset_Generation_Online_Appendix
+python -u LS_0512110456_statistical_engine.py
 
 # 4. Generazione delle 75 visualizzazioni grafiche ad alta risoluzione
-python -u LS_0512110456_visualization_suite_v1.0.py --root Quantum_Dataset_Generation_Online_Appendix
+python -u LS_0512110456_visualization_suite.py
 
 # 5. Audit finale e certificazione di conformità
-python -u LS_0512110456_validation_suite_v1.0.py --root Quantum_Dataset_Generation_Online_Appendix
+python -u LS_0512110456_validation_suite.py
 
 ```
 
