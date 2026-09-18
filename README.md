@@ -352,5 +352,5 @@ Se utilizzi questo codice o ritieni utile questa ricerca per il tuo lavoro, cita
   institution = {Università degli Studi di Salerno, Dipartimento di Informatica},
   year        = {2026},
   doi         = {10.5281/zenodo.22828372},
-  url         = {[https://github.com/KLS-01/VQC_Generator-Fair-Interpretable-Data](https://github.com/KLS-01/VQC_Generator-Fair-Interpretable-Data)}
+  url         = {https://github.com/KLS-01/VQC_Generator-Fair-Interpretable-Data}
 }
