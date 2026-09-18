@@ -1,9 +1,9 @@
 # VQC Generator: Fair Interpretable Data
 [![MIT License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/KLS-01/VQC_Generator-Fair-Interpretable-Data/blob/main/LICENSE)
 
-**A cura di:** [Leonardo Schiavo](https://github.com/KLS-01/)
+🪶 **A cura di:** [Leonardo Schiavo](https://github.com/KLS-01/)
 
-**Tecnologie usate:**
+⚙️ **Tecnologie usate:**
 
 <p align="left">
   <!-- Python -->
@@ -32,7 +32,7 @@
   </a>
 </p>
 
-## 🎯 1. Obiettivo Scientifico e Razionale Metodologico
+## 🎯 1. Obiettivo Scientifico e Scelte Metodologiche
 
 L’obiettivo del presente lavoro è progettare e valutare un sistema gene rativo basato su VQC per la produzione di dati sintetici tabulari fair analizzandone e ottimizzandone il trade-off tridimensionale tra espressività dell’ansatz (**utility**), mitigazione del bias (**fairness**) e interpretabilità del circuito (**explainability**). 
 
@@ -48,7 +48,15 @@ I gradienti analitici $\nabla_{\boldsymbol{\theta}}\mathcal{L}$ vengono calcolat
 
 * **Trasparenza e Ispezionabilità Causale:** I VQC consentono di analizzare esplicitamente il contributo dei singoli gate e parametri del circuito tramite metodi analitici quantistici (Quantum Shapley Values, entanglement globale Meyer-Wallach, purezza con qsalto), permettendo di quantificare il trade-off tra espressività architetturale, complessità circuitale e stabilità delle spiegazioni.
 
-## 🧩 2. File Sorgente Python (`.py`) e Architettura Modulare
+## 📜 2. Documentazione | Tesi di Laurea
+
+Il testo completo del lavoro di tesi con dimostrazioni teoriche, descrizione formale della pipeline e report dei risultati con analisi statistica è disponibile in formato **PDF**.
+
+⚡ [_**Abstract**_](./docs/Abstract\_Circuiti\_Quantistici\_Variazionali\_per\_la\_generazione\_equa\_e\_interpretabile\_di\_dati\_sintetici\_Leonardo\_Schiavo.pdf)
+
+📖 [_**Tesi**_](./docs/Tesi\_Circuiti\_Quantistici\_Variazionali\_per\_la\_generazione\_equa\_e\_interpretabile\_di\_dati\_sintetici\_Leonardo\_Schiavo.pdf)
+
+## 🧩 3. File Sorgente Python (`.py`) e Architettura Modulare
 
 | File Sorgente | Modulo / Ruolo | Responsabilità Operativa |
 | --- | --- | --- |
@@ -65,7 +73,7 @@ I gradienti analitici $\nabla_{\boldsymbol{\theta}}\mathcal{L}$ vengono calcolat
 | `visualization_suite.py` | **Visual Analytics Suite** | Generazione di 75 figure PNG ad alta risoluzione ($300\text{ DPI}$): Heatmap di performance e Nemenyi, barplot stabilità SVQX, scatter plot con bande di confidenza $95\%$.|
 | `validation_suite.py` | **Quality Gate & Compliance** | Validazione formale cumulativa: verifica shape, unicità chiavi primarie, range matematici delle matrici, merge relazionali $1:1$ RQ2-RQ3.|
 
-## 🔬 3. Disegno Sperimentale e Scelte di Codifica
+## 🔬 4. Disegno Sperimentale e Scelte di Codifica
 
 ```
 3 Dataset UCI × 6 Configurazioni VQC × 3 Seed Locali = 54 Run Totali
@@ -99,7 +107,7 @@ I gradienti analitici $\nabla_{\boldsymbol{\theta}}\mathcal{L}$ vengono calcolat
      └─────────────────┘  └─────────────────┘  └─────────────────┘
 ```
 
-### 3.1 Le 6 configurazioni circuitali
+### 4.1 Le 6 configurazioni circuitali
 
 | ID Configurazione | Profondità ($L$) | Topologia Entanglement | Strategia Encoding | Parametri ($N_q=10$) | Porte CNOT ($N_q=10$) |
 | --- | --- | --- | --- | --- | --- |
@@ -110,7 +118,7 @@ I gradienti analitici $\nabla_{\boldsymbol{\theta}}\mathcal{L}$ vengono calcolat
 | `L2_re_upload` | 2 | Lineare (nearest neighbor) | Data Re-Uploading | 40 | 18 |
 | `L2_all_to_all_re_upload` | 2 | Completa (All-to-All) | Data Re-Uploading | 40 | 90 |
 
-### 3.2 Allocazione del Budget di Qubit per Dataset
+### 4.2 Allocazione del Budget di Qubit per Dataset
 
 Il simulatore esegue calcoli su vettori di stato esatti ($2^{N_q}$ ampiezze complesse). Il vincolo fisico è:
 
@@ -122,7 +130,7 @@ $$N_{\text{qubits}} = d_{\text{features}} + 1_{\text{target}} + 1_{\text{sensiti
 
 * **Student Performance (UCI 320)**: $8\text{ feature} + 1\text{ target} + 1\text{ sensibile} = \mathbf{10\text{ qubit}}$ ($1024\text{ ampiezze}$). Gate groups analizzati: **11** (10 rotazioni qubit + 1 blocco CNOT).
 
-### 3.3 Codifica degli Attributi Sensibili e Scelte di Protezione
+### 4.3 Codifica degli Attributi Sensibili e Scelte di Protezione
 
 * **Binarizzazione a Soglia Fissa ($A_{\text{age}}$):** German Credit ($\text{Age} \ge 25$), Heart Disease ($\text{Age} \ge 55$), Student Performance ($\text{Age} \ge 18$).
 
@@ -142,7 +150,7 @@ $$N_{\text{qubits}} = d_{\text{features}} + 1_{\text{target}} + 1_{\text{sensiti
 
 * **Split Dati:** $70\%$ Training (ricostruzione sintetica) e $30\%$ Test set reale stratificato su $A_{\text{overall}}$.
 
-## 📊 4. Research Questions (RQ) e Struttura Metriche
+## 📊 5. Research Questions (RQ) e Struttura Metriche
 ```
                  ┌─────────────────────────────────────────┐
                  │     QUADRO DELLE RESEARCH QUESTIONS     │
@@ -219,10 +227,8 @@ $$N_{\text{qubits}} = d_{\text{features}} + 1_{\text{target}} + 1_{\text{sensiti
 
 * **Output Grafici:** `svqx_NemenyiTestResults_heatmap.png`, `svqx_stability_bars.png` (barplot in $[-1, 1]$), $36\text{ scatter plot}$ `complexity_scatter_<metric_x>_<metric_y>.png` con retta di regressione e banda di confidenza $95\%$.
 
-## 📁 5. Gerarchia "\artifacts"
-
+## 📁 6. Gerarchia "\artifacts"
 ```text
-Quantum_Dataset_Generation_Online_Appendix/
 Datasets/
 ├── german_credit/                             (19 CSV: 1 reale + 18 sintetici)
 ├── heart_disease/                             (19 CSV: 1 reale + 18 sintetici)
@@ -281,9 +287,9 @@ ValidationResults/
 └── validation_errors.txt    (Tracciamento errori: vuoto a pipeline completata)
 ```
 
-## ⚡ 6. Pipeline di Esecuzione e Guida Operativa
+## ⚡ 7. Pipeline di Esecuzione e Guida Operativa
 
-### 6.1 Dipendenze Software Esatte
+### 7.1 Dipendenze Software Esatte
 
 Per garantire la piena riproducibilità scientifica ed evitare disallineamenti tra versioni di librerie, si raccomanda di utilizzare le seguenti versioni dei pacchetti:
 
@@ -309,7 +315,7 @@ Comando di installazione a prova di invecchiamento:
 pip install qiskit==2.5.2 qiskit-aer==0.17.2 ucimlrepo==0.0.7 qsalto==0.2.2 scikit-learn==1.6.1 pandas==2.2.3 numpy==2.1.3 scipy==1.16.3 statsmodels==0.14.6 matplotlib==3.10.0 seaborn==0.13.2
 ```
 
-### 6.2 Sequenza Operativa di Esecuzione
+### 7.2 Sequenza Operativa di Esecuzione
 
 Per utilizzare la pipeline, lanciare i seguenti comandi:
 

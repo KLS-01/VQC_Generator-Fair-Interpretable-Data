@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "VQC Generator: Fair Interpretable Data"
+abstract: >-
+  Framework di ricerca per la generazione di dati sintetici tabulari equi e interpretabili
+  tramite Variational Quantum Circuits (VQC) con vincoli geometrici di fairness-by-design
+  nella funzione di costo. Integra la stima della purezza dello stato tramite Bell sampling
+  (qsalto) e spiega il contributo causale delle porte quantistiche mediante Quantum Shapley Values (SVQX).
+authors:
+  - family-names: "Schiavo"
+    given-names: "Leonardo"
+    affiliation: "Università degli Studi di Salerno, Dipartimento di Informatica"
+    orcid: "https://orcid.org/0009-0009-5602-4451"
+repository-code: "https://github.com/KLS-01/VQC_Generator-Fair-Interpretable-Data"
+url: "https://github.com/KLS-01/VQC_Generator-Fair-Interpretable-Data"
+license: MIT
+keywords:
+  - "variational-quantum-circuits"
+  - "synthetic-data-generation"
+  - "algorithmic-fairness"
+  - "explainable-quantum-machine-learning"
+  - "quantum-machine-learning"
+  - "shapley-values"
+  - "software-engineering-for-ai"
+version: 1.0.0
+date-released: "2026-09-17"
+# Una volta collegato a Zenodo e fatta la prima release, decommenta e inserisci il DOI assegnato:
+# doi: "10.5281/zenodo.XXXXXXX"
+
+preferred-citation:
+  type: thesis
+  authors:
+    - family-names: "Schiavo"
+      given-names: "Leonardo"
+      affiliation: "Università degli Studi di Salerno, Dipartimento di Informatica"
+  title: "Circuiti Quantistici Variazionali per la generazione equa e interpretabile di dati sintetici"
+  thesis-type: "Bachelor's Thesis"
+  institution:
+    name: "Università degli Studi di Salerno"
+    department: "Dipartimento di Informatica"
+  year: 2026
+  url: "https://github.com/KLS-01/VQC_Generator-Fair-Interpretable-Data"
