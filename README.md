@@ -1,7 +1,12 @@
 # VQC Generator: Fair Interpretable Data
 [![MIT License](https://img.shields.io/badge/license-MIT-blue)](https://github.com/KLS-01/VQC_Generator-Fair-Interpretable-Data/blob/main/LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22828372.svg)](https://doi.org/10.5281/zenodo.22828372)
 
-🪶 **A cura di:** [Leonardo Schiavo](https://github.com/KLS-01/)
+🪶 **Autore:** Leonardo Schiavo
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leonardo-schiavo-701784281)
+[![GitHub](https://img.shields.io/badge/GitHub-KLS--01-181717?style=flat&logo=github&logoColor=white)](https://github.com/KLS-01/)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0009--5602--4451-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0009-5602-4451)
 
 ⚙️ **Tecnologie usate:**
 
@@ -50,7 +55,7 @@ I gradienti analitici $\nabla_{\boldsymbol{\theta}}\mathcal{L}$ vengono calcolat
 
 ## 📜 2. Documentazione | Tesi di Laurea
 
-Il testo completo del lavoro di tesi con dimostrazioni teoriche, descrizione formale della pipeline e report dei risultati con analisi statistica è disponibile in formato **PDF**.
+Il testo completo del lavoro di tesi con dimostrazioni teoriche, descrizione formale della pipeline e report dei risultati con analisi statistica è disponibile in formato **PDF** nella cartella "\docs".
 
 ⚡ [_**Abstract**_](./docs/Abstract\_Circuiti\_Quantistici\_Variazionali\_per\_la\_generazione\_equa\_e\_interpretabile\_di\_dati\_sintetici\_Leonardo\_Schiavo.pdf)
 
@@ -336,3 +341,16 @@ python -u visualization_suite.py
 python -u validation_suite.py
 ```
 
+## 🤝 Citazione
+Se utilizzi questo codice o ritieni utile questa ricerca per il tuo lavoro, cita la relativa tesi di laurea utilizzando i metadati presenti in [CITATION.cff](CITATION.cff) oppure facendo clic sul pulsante **"Cite this repository"**.
+
+```bibtex
+@thesis{schiavo2026vqc,
+  author      = {Schiavo, Leonardo},
+  title       = {Circuiti Quantistici Variazionali per la generazione equa e interpretabile di dati sintetici},
+  type        = {Bachelor's Thesis},
+  institution = {Università degli Studi di Salerno, Dipartimento di Informatica},
+  year        = {2026},
+  doi         = {10.5281/zenodo.22828372},
+  url         = {[https://github.com/KLS-01/VQC_Generator-Fair-Interpretable-Data](https://github.com/KLS-01/VQC_Generator-Fair-Interpretable-Data)}
+}

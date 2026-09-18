@@ -25,8 +25,7 @@ keywords:
   - "software-engineering-for-ai"
 version: 1.0.0
 date-released: "2026-09-17"
-# Una volta collegato a Zenodo e fatta la prima release, decommenta e inserisci il DOI assegnato:
-# doi: "10.5281/zenodo.XXXXXXX"
+doi: "10.5281/zenodo.22828372"
 
 preferred-citation:
   type: thesis
@@ -40,4 +39,5 @@ preferred-citation:
     name: "Università degli Studi di Salerno"
     department: "Dipartimento di Informatica"
   year: 2026
+  doi: "10.5281/zenodo.22828372"
   url: "https://github.com/KLS-01/VQC_Generator-Fair-Interpretable-Data"
