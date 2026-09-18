@@ -197,7 +197,7 @@ $$N_{\text{qubits}} = d_{\text{features}} + 1_{\text{target}} + 1_{\text{sensiti
 * **Metriche di Fairness Classica:**
   * Statistical Parity Difference: $\text{SPD} = P(\hat{Y}=1 \mid A=0) - P(\hat{Y}=1 \mid A=1)$
   * Equal Opportunity Difference: $\text{EOD} = P(\hat{Y}=1 \mid A=0, Y=1) - P(\hat{Y}=1 \mid A=1, Y=1)$
-  * Average Odds Difference: $\text{AOD} = \frac{1}{2} \left( \vert{}\text{FPR}_{A=0} - \text{FPR}_{A=1}\vert{} + \vert{}\text{TPR}_{A=0} - \text{TPR}_{A=1}\vert{} \right)$
+  * Average Odds Difference: $\text{AOD} = \frac{1}{2} \left( \vert{}\text{FPR}\_{A=0} - \text{FPR}\_{A=1}\vert{} + \vert{}\text{TPR}\_{A=0} - \text{TPR}\_{A=1}\vert{} \right)$
 
 * **Metriche Quantum-Native:**
   * `trace_distance_input`: Distanza di traccia tra le matrici densità degli stati di input protetti e non protetti.
