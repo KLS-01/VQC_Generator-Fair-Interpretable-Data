@@ -147,7 +147,7 @@ $$N_{\text{qubits}} = d_{\text{features}} + 1_{\text{target}} + 1_{\text{sensiti
 
 * **Fairness Through Unawareness:** L'attributo `sex` non entra mai nella matrice predittiva $X$ per prevenire il *disparate treatment* diretto da parte dei classificatori classici. `age` è presente sia come feature continua predittiva in $X$ sia come base di discretizzazione per $A_{\text{age}}$.
 
-### 3.4 Iperparametri di Addestramento e Protocollo di Valutazione
+### 4.4 Iperparametri di Addestramento e Protocollo di Valutazione
 
 * **Ottimizzazione VQC:** `EPOCHS = 15`, `LEARNING_RATE = 0.4`, `LAMBDA_FAIR = 5.0`, `BATCH_FRAC = 0.25`.
 
